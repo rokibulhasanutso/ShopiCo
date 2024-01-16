@@ -1,0 +1,20 @@
+.wrapper {
+    @apply w-full mb-4 last:mb-0
+}
+.wrapper label {
+    @apply block mb-1 text-base font-roboto font-medium text-gray-500
+}
+.wrapper input {
+    @apply appearance-none font-opensans w-full text-lg px-3 py-2 border border-gray-400 focus:border-transparent rounded-md outline-none focus:ring-1 focus:ring-indigo-500
+}
+.wrapper .eyePass {
+    @apply flex items-center font-opensans w-full text-lg px-3 py-2 border border-gray-400 focus-within:border-transparent rounded-md outline-none focus-within:ring-1 focus-within:ring-indigo-500
+}
+.wrapper .eyePass input {
+    @apply appearance-none border-0 p-0 ring-0 rounded-none
+}
+.wrapper .eyePass button {
+    @apply text-xl text-slate-500 mx-2
+}
+
+

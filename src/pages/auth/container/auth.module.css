@@ -1,0 +1,24 @@
+.layout {
+    @apply h-screen flex flex-col justify-center items-center
+}
+.wrapper {
+    @apply max-w-[400px] w-full bg-white px-5 py-3 rounded-md
+}
+.wrapper form {
+    @apply mt-10 mb-4 last:mb-0
+}
+.wrapper .contentHead {
+    @apply mx-auto
+}
+.wrapper .contentHead h2 {
+    @apply text-3xl font-roboto
+}
+.wrapper .contentHead p {
+    @apply text-base text-slate-500 mb-2 px-0.5
+}
+.wrapper .submissionButton {
+    @apply font-opensans w-full text-lg px-[13px] py-[9px] rounded-md bg-rose-500 hover:bg-rose-600 text-white
+}
+.wrapper .signinGoogleButton {
+    @apply flex justify-center font-opensans items-center gap-4 w-full text-base text-gray-500 px-3.5 py-2.5 rounded-md hover:bg-gray-100 border border-gray-400
+}
