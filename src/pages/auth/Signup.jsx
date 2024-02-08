@@ -25,8 +25,8 @@ const Signup = () => {
 
     return (
         <div className={style.layout}>
-            <div className='mb-14'>
-                <Logo size={85}/>
+            <div className='mb-7 sm:mb-14'>
+                <Logo iconClass={'sm:w-24 w-[72px]'} textClass={'sm:text-[38.4px] text-[28.8px]'}/>
             </div>
 
             <div className={style.wrapper}>

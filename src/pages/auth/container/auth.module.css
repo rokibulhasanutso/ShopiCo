@@ -1,5 +1,5 @@
 .layout {
-    @apply h-screen flex flex-col justify-center items-center
+    @apply min-h-screen flex flex-col justify-center items-center py-16
 }
 .wrapper {
     @apply max-w-[400px] w-full bg-white px-5 py-3 rounded-md
@@ -11,10 +11,10 @@
     @apply mx-auto
 }
 .wrapper .contentHead h2 {
-    @apply text-3xl font-roboto
+    @apply text-2xl sm:text-3xl font-roboto text-center sm:text-start 
 }
 .wrapper .contentHead p {
-    @apply text-base text-slate-500 mb-2 px-0.5
+    @apply text-base text-slate-500 mb-2 px-0.5 text-center sm:text-start 
 }
 .wrapper .submissionButton {
     @apply font-opensans w-full text-lg px-[13px] py-[9px] rounded-md bg-rose-500 hover:bg-rose-600 text-white

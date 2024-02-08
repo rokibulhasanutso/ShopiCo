@@ -47,7 +47,7 @@ const PasswordInput = ({label, name, placeholder, varient, getInput}) => {
                         placeholder={placeholder}
                         autoComplete='off'
                     />
-                    <button onClick={() => setPassShow(!passShow)}>
+                    <button onClick={(e) => {e.preventDefault(); setPassShow(!passShow)}}>
                         {
                             passShow 
                             ? <RiEyeFill />

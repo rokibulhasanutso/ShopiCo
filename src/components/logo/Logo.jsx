@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
 import shopicoLogo from '../../assets/images/shopico-logo.png'
 
-const Logo = ({size}) => {
+const Logo = ({iconClass, textClass}) => {
     return (
         <Link to={'/'}>
             <div className='flex items-center gap-2 select-none'>
-                <div><img width={size+'px'} src={shopicoLogo} alt="Logo" /></div>
-                <p className={`font-opensans font-semibold`} style={{fontSize: size*.4}}>
+                <div><img className={`${iconClass}`} src={shopicoLogo} alt="Logo" /></div>
+                <p className={`font-opensans font-semibold ${textClass}`}>
                     <span className='text-[#0074ff]'>Shopi</span>
                     <span className='text-[#ffb300]'>Co</span>
                 </p>
@@ -16,7 +16,8 @@ const Logo = ({size}) => {
 };
 
 Logo.defaultProps = {
-    size: 200
+    iconClass: "w-16",
+    textClass: "text-[25.6px]"
 }
 
 export default Logo;
